@@ -1,5 +1,5 @@
 # AlphatTJ
-Bot AlphatTJ@9.9.9
+Bot AlphatTJ@9.9.9 (Masih Error, Tapi Bisa Buat Ambil Token Buat TCR Sebelah)
 ------
 -
 
