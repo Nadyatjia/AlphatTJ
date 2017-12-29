@@ -1,0 +1,42 @@
+{
+  "name": "Alphat",
+  "version": "9.9.9",
+  "description": "LINE",
+  "main": "./src/main.js",
+  "scripts": {
+    "start": "npm run nadya1 && npm run nadya2 && npm run nadya3 && npm run nadya4 && npm run nadya5",
+    "nadya1": "node ./src/bot1.js",
+    "nadya2": "node ./src/bot2.js",
+    "nadya3": "node ./src/bot3.js",
+    "nadya4": "node ./src/bot4.js",
+    "nadya5": "node ./src/bot5.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Nadyatjia/Alphat"
+  },
+  "author": "Nadya <Nadya.goodgirl@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "qrcode-terminal": "^0.11.0",
+    "node-bignumber": "^1.2.1",
+    "utf8": "^2.1.1"
+  },
+  "dependencies": {
+    "bluebird": "^3.3.4",
+    "thrift": "^0.10.0",
+    "thrift-http": "^1.0.1",
+    "unirest": "^0.5.0",
+    "request": "^2.0.0",
+    "request-promise": "^2.0.0",
+    "webp-converter": "^2.1.6",
+    "moment": "^2.18.1"
+  },
+  "bugs": {
+    "url": "https://github.com/Nadyatjia/Alphat/issues"
+  },
+  "homepage": "https://github.com/Nadyatjia/Alphat#README",
+  "keywords": [
+    "line"
+  ]
+}
