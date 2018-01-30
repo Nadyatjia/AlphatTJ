@@ -1,5 +1,5 @@
 # AlphatTJ
-Bot AlphatTJ@9.9.9 (Masih Error, Tapi Bisa Buat Ambil Token Buat TCR Sebelah)
+Bot AlphatTJ@9.9.9 (Bisa Buat Ambil Token Buat TCR Sebelah)
 ------
 -
 
@@ -10,19 +10,19 @@ NEW
 - `Add Staff`
 - `Delete Staff`
 
-Cara Install Bot AlphatJS :
+Cara Install Bot AlphatTJ :
 ------
 - `pkg install nodejs -y`
 - `pkg install git -y`
-- `git clone https://github.com/Nadyatjia/AlphatOld`
+- `git clone https://github.com/Nadyatjia/AlphatTJ`
 - `pkg install nano`
-- `cd AlphatOld`
+- `cd AlphatTJ`
 - `npm install`
 - `npm start`
 
 Cara Menjalankan Bot Kembali :
 ------
-- `cd AlphatOld`
+- `cd AlphatTJ`
 - `npm start`
 
 Credit By@ Nadya Sutjiadi.
