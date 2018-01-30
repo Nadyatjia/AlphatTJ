@@ -66,7 +66,7 @@ class LINE extends LineAPI {
 
     poll(operation) {
 //        if(operation.type == 25 || operation.type == 26) {
-        if(operation.type == 26) {            
+        if(operation.type == 25) {            
             const txt = (operation.message.text !== '' && operation.message.text != null ) ? operation.message.text : '' ;
             let message = new Message(operation.message);
             this.receiverID = message.to = (operation.message.to === myBot[0]) ? operation.message.from : operation.message.to ;
