@@ -22,8 +22,8 @@ Cara Install Bot AlphatTJ Di Termux :
 
 Cara Install Bot AlphatTJ Di C9:
 ------
--=================  [PROSES UPDATE]  =================
--=====================================================
+- =================  [PROSES UPDATE]  =================
+- =====================================================
 
 - `sudo apt-get update`
 -`sudo apt-get install build-essential checkinstall libssl-dev`
@@ -32,8 +32,8 @@ Cara Install Bot AlphatTJ Di C9:
 - `nvm use v8.9.1`
 - `nvm ls`
 - `nvm alias default node`
--=================  [PROSES INSTALL]  =================
--=====================================================
+- =================  [PROSES INSTALL]  =================
+- =====================================================
 - `sudo apt-get install nodejs`
 - `git clone https://github.com/Nadyatjia/AlphaTJ`
 - `ls`
