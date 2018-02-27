@@ -57,8 +57,8 @@ class LineAPI {
     path: this.config.LINE_HTTP_URL,
     https: true
   }) {
-//    options.headers['X-Line-Application'] = 'CHROMEOS\t2.1.0\tChrome_OS\t1';
-    options.headers['X-Line-Application'] = 'DESKTOPMAC 10.10.2-YOSEMITE-x64    MAC 4.5.0';
+    options.headers['X-Line-Application'] = 'CHROMEOS 8.2.2 NADYA-TJ x64';
+//    options.headers['X-Line-Application'] = 'DESKTOPMAC 10.10.2-YOSEMITE-x64    MAC 4.5.0';
 //    options.headers['X-Line-Application'] = 'DESKTOPMAC\t5.3.3-YOSEMITE-x64\tMAC\t10.12.0';
     this.options = options;
     this.connection =
@@ -123,7 +123,7 @@ class LineAPI {
                 this.options.headers['X-Line-Access'] = config.tokenn;
                 this.options.path = this.config.LINE_COMMAND_PATH;
                 this.setTHttpClient(this.options);
-			    this.options.headers['User-Agent'] = 'Line/7.18.1';
+			    this.options.headers['User-Agent'] = 'Line/8.2.2';
 			    this.axz = true;
 			    this.setTHttpClient(this.options);
 			    this.axz = false;
