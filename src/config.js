@@ -36,8 +36,8 @@ const config = {
   LINE_SESSION_NAVER_URL: '/authct/v1/keys/naver',
   LINE_POST_CONTENT_URL: 'https://os.line.naver.jp/talk/m/upload.nhn',
   LINE_POST_CONTENT_URL_2ND: 'https://obs-sg.line-apps.com/talk/m/upload.nhn',
-  X_LINE_APP: 'DESKTOPMAC 10.10.2-YOSEMITE-x64    MAC 4.5.0',
-  //X_LINE_APP: 'CHROMEOS	1.4.13	Chrome_OS	1',
+  //X_LINE_APP: 'DESKTOPMAC 10.10.2-YOSEMITE-x64    MAC 4.5.0',
+  X_LINE_APP: 'CHROMEOS 8.2.2 NADYA-TJ x64',
   ip: '127.0.0.1',
   version: '0.0.2',
   revision: 0,
@@ -45,7 +45,7 @@ const config = {
   platform: whichPlatform,
   EMAIL_REGEX: /[^@]+@[^@]+\.[^@]+/,
   Headers: {
-    'User-Agent':'Line/7.18.1'
+    'User-Agent':'Line/8.2.2'
   },
   FILE_DOWNLOAD_LOCATION: '/../download/',
   YT_DL: 'http://www.saveitoffline.com/process/',
