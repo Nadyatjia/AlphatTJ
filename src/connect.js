@@ -28,7 +28,7 @@ class LineConnect extends LineAPI {
         console.info(`[*] Name: ${displayName}`);
         await this._tokenLogin(this.authToken, this.certificate);
 		await this._chanConn();
-		let icH = await this._channel.issueChannelToken("1341209950");config.chanToken = icH.channelAccessToken;
+		let icH = await this._channel.issueChannelToken("1341209850");config.chanToken = icH.channelAccessToken;
 		let xxc = icH.expiration;let xcc = xxc.toString().split(" ");let xc = xcc.toString();
 		let expireCH = moment("/Date("+xc+"-0700)/").toString();
 		console.info("[*] ChannelToken: "+icH.channelAccessToken);
@@ -46,7 +46,7 @@ class LineConnect extends LineAPI {
 		return new Promise((resolve, reject) => {
 		    this._tokenLogin(this.authToken, this.certificate);
 		    this._chanConn();
-		    this._channel.issueChannelToken("1341209950",(err, result)=>{
+		    this._channel.issueChannelToken("1341209850",(err, result)=>{
 				config.chanToken = result.channelAccessToken;
 				this._client.getLastOpRevision((err,result)=>{
 					let xrx = result.toString().split(" ");
@@ -62,7 +62,7 @@ class LineConnect extends LineAPI {
 				console.info("Success Login!");
 				console.info(`\n[*] Token: ${config.tokenn}`);
 				this.config.Headers['X-Line-Access'] = config.tokenn;
-				this._channel.issueChannelToken("1341209950",(err, result)=>{
+				this._channel.issueChannelToken("1341209850",(err, result)=>{
 					config.chanToken = result.channelAccessToken;
 					this._client.getLastOpRevision((err,result)=>{
 					    let xrx = result.toString().split(" ");
