@@ -1,5 +1,5 @@
 # AlphatTJ
-Bot AlphatTJ@9.9.9 (Bisa Buat Ambil Token Buat TCR Sebelah)
+Bot AlphatTJ@9.9.9 (Pakai Token Chrome Via QR Login)
 ------
 -
 
