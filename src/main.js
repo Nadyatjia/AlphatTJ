@@ -64,8 +64,9 @@ class LINE extends LineAPI {
 
 
     poll(operation) {
-//        if(operation.type == 25 || operation.type == 26) {
-        if(operation.type == 26) {            
+        if(operation.type == 25 || operation.type == 26) {
+//        if(operation.type == 25) { 
+//        if(operation.type == 26) { 		
             const txt = (operation.message.text !== '' && operation.message.text != null ) ? operation.message.text : '' ;
             let message = new Message(operation.message);
             this.receiverID = message.to = (operation.message.to === myBot[0]) ? operation.message.from : operation.message.to ;
@@ -479,7 +480,7 @@ class LINE extends LineAPI {
         }
 
         if(txt == 'help') {
-           this._sendMessage(seq, '==============================\n αll cσmmαnd\n==============================\n☞ gift\n☞ halo\n☞ help\n☞ creator\n☞ Bc [Jumlah] /[Text] (Jika Bc On)\n☞ info group\n☞ group creator\n☞ tag all\n☞ speed\n☞ set\n☞ check\n☞ status/setting\n☞ clear\n☞ hak admin dan staff\n\n==============================\n\n==============================\n☞ respon\n☞ Open url\n☞ Close url\n☞ bye\n☞ spam\n☞ Cancel on/off\n☞ Lockinvite on/off\n☞ Lockupdategroup on/off\n☞ LockJoin on/off\n☞ LockCancel on/off\n☞ Autokick on/off\n☞ Autojoin on/off\n☞ Kill「@」\n☞ salken (Kick On Terlebih Dahulu)\n☞ msg\n☞ Bc on/off\n☞ Sambutan on/off\n\n==============================\n\n==============================\n☞ mute\n☞ unmute\n☞ add staff\n☞ remove staff\n\n==============================\nN A D Y A\n==============================');
+           this._sendMessage(seq, '==============================\n αll cσmmαnd\n==============================\n☞ gift\n☞ halo\n☞ help\n☞ creator\n☞ Bc [Jumlah] /[Text] (Jika Bc On)\n☞ info group\n☞ group creator\n☞ tag all\n☞ speed\n☞ set\n☞ check\n☞ status/setting\n☞ clear\n☞ hak admin dan staff\n\n==============================\n\n==============================\n☞ respon\n☞ Open url\n☞ Close url\n☞ bye\n☞ spam\n☞ Cancel on/off\n☞ Lockinvite on/off\n☞ Lockupdategroup on/off\n☞ LockJoin on/off\n☞ LockCancel on/off\n☞ Autokick on/off\n☞ Autojoin on/off\n☞ Kill「@」\n☞ msg\n☞ Bc on/off\n☞ Sambutan on/off\n\n==============================\n\n==============================\n☞ mute\n☞ unmute\n☞ add staff\n☞ remove staff\n\n==============================\nN A D Y A\n==============================');
         }
 
          if(txt == 'hak admin dan staff' || txt == 'hak staff dan admin') {
